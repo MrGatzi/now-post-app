@@ -19,7 +19,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#6366f1"
       },
-      "package": "com.nowpost.app"
+      "package": "com.nowpost.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "plugins": [
       [
@@ -30,6 +33,11 @@
         }
       ],
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7c9751c9-4a38-47f7-b87e-a1cd9368c961"
+      }
+    }
   }
 }

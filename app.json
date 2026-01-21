@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "NowPost",
+    "slug": "now-post-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6366f1"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#6366f1"
+      },
+      "package": "com.nowpost.app"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow NowPost to access your photos to share on your Now page.",
+          "cameraPermission": "Allow NowPost to access your camera to take photos for your Now page."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
